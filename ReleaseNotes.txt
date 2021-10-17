@@ -1,0 +1,18 @@
+Cole Hoener
+Release Notes
+CSVapp
+14 March 2021
+
+~Requirments~
+Every requirment from he SRS has been fufilled except:
+-Changes to the CSV file not saving until manually done so.
+
+The actual implmentation is that files save as they are edited in real time.
+
+All other requirments are fufilled such as editing, seperator specification, cell retrieval, ect.
+
+
+~Known Issues~
+There are no known issues from testing execpt if a file that is not a CSV file (something
+unknown such as a vector or non text file) then the program may crash if unable to read the
+files bytes correctly.
